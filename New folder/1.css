@@ -1,0 +1,11 @@
+body {
+    font-family: tahoma;
+    font-size: 11px;
+}
+nav .logo {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+}
