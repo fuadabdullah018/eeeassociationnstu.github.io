@@ -22,7 +22,8 @@ p{
 nav {
 	background: #f4f4f4;
 	font-family: tahoma;
-	font-size:11px
+	font-size:11px;
+	position:fixed;
 }
 a { text-decoration:none }
  
