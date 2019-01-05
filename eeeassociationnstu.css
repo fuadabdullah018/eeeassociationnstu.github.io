@@ -24,6 +24,7 @@ nav {
 	font-family: tahoma;
 	font-size:11px;
 	position:fixed;
+	z-index:99999;
 }
 a { text-decoration:none }
  
