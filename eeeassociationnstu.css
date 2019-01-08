@@ -851,7 +851,7 @@ px      68    160    252    344    436    */
 } 
  
 .committee_box {
-    margin-bottom: 50%;
+    margin-bottom: 53%;
 } 
   
  
@@ -939,7 +939,6 @@ px      68    160    252    344    436    */
 } 
  
 .committee_box {
-    margin-bottom: 50%;
 } 
   
  
@@ -1074,9 +1073,16 @@ px      68    160    252    344    436    */
     margin: 24px 0px 20px 3px;
 }	
 }
+@media only screen and (min-width: 50px) and (max-width: 1260px) { 
+ .wrap{
+	width:100%;
+}
+.committee_box {
+    margin-bottom: 53%;
+}
+}
 
- 
-@media only screen   and (max-width: 238px) { 
+@media only screen   and (max-width: 240px) { 
  .wrap{
 	width:100%;
 }
