@@ -1,0 +1,279 @@
+*{margin:0;padding:0;border: 0}
+body{
+	background-color:#FFFFF;
+}
+a{
+	text-decoration:none;
+}
+
+p{
+	text-align:justify;
+}
+.full_wrap{
+	width:100%
+}
+ .wrap{
+	width:1280px;
+	display:block;
+	margin:0 auto
+}
+
+/*Menu-------------------------------------*/
+nav {
+	background: #f4f4f4;
+	font-family: tahoma;
+	font-size:11px;
+	position:fixed;
+	z-index:99999;
+}
+a { text-decoration:none }
+ 
+.clear:before,
+.clear:after {
+	content:" ";
+	display: table
+}
+.clear:after { clear: both }
+.arrow {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle
+}
+.arrow.down {
+	border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+.arrow.up {
+	border-bottom: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+
+nav {
+	width: 100%;
+	background: #6CC49B
+}
+nav .navbar {
+	width: 95%;
+	max-width: 1000px;
+	margin:0 auto
+}
+nav a { color: #fff }
+
+
+
+
+nav .logo_img{
+	display:none;
+}
+
+
+nav .logo {
+	float: left;
+	    margin-top: 9px;
+ 	font-size: 15px;
+	font-weight: bold
+}
+
+
+
+nav .menu-toggle {
+	cursor: pointer;
+	display: none;
+	float: right;
+	padding: 12px;
+	margin: 10px 0;
+	background: #62b38d;
+	transition: background-color .5s
+}
+nav .icon-bar {
+	background-color: #fff;
+	display: block;
+	width: 22px;
+	height: 2px
+}
+nav .icon-bar + .icon-bar { margin-top: 4px }
+
+nav .menu ul { float: right }
+nav .menu li {
+	float: left;
+	list-style: none;
+	border-left: 2px solid #62b38d
+}
+nav .menu li:first-child { border-left: 0 }
+nav .menu li a,
+nav .open-submenu {
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	display: block;
+	padding: 12px 20px;
+	transition: background-color .3s
+}
+nav .menu li a:hover,
+nav .open-submenu:hover ,
+nav .open-submenu.active,
+nav .menu-toggle.active  {
+	background: #FFBB22;
+	transition: background-color .5s
+}
+nav .menu ul ul {
+	z-index: 100;
+	display: none;
+	float: none;
+	position: absolute;
+	background: #FFBB22
+}
+nav .menu ul ul li {
+	float: none;
+	border: 0
+}
+nav .menu ul ul a:hover {
+	background: #62b38d;
+	transition: background-color .3s
+}
+
+
+@media(max-width: 1005px) {
+	nav .logo { padding-top: 8px }
+	nav .menu-toggle { display: inline-block }
+	nav .menu { display: none; clear: both }
+	nav .menu > ul { float: none }
+	nav .menu li { width: 100%; border: 0 }
+	nav .menu li:last-child { margin: 0 0 15px 0 }
+	nav .menu li a,
+	nav .open-submenu {
+		display: block;
+		background: #62b38d;
+		padding: 10px;
+		margin: 2px 0 0 0
+	}
+	nav .menu ul ul {
+		position: static;
+		background: transparent;
+		display:none
+	}
+	nav .menu ul ul a { background: transparent }
+	nav .menu ul ul a:hover { background: #FFBB22 }
+}
+	
+
+	
+	
+	
+	
+	
+
+ /*Menu End-------------------------------------*/
+
+
+ 
+	
+	
+/*.section{
+	background-color:#676A0D;
+	 	
+ }
+ #section{
+	border-left:1px solid #676A0D; 
+	border-right:1px solid #676A0D; 
+ } 
+ 
+*/
+
+
+
+
+
+
+
+.gapinside{
+	height:50px;
+	background-color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+.form1{    
+  background:url('images/jurassic-coast-1089035_1920.jpg') no-repeat;
+  background-size: cover;
+  height:100%;
+
+}
+
+.form-top{
+  margin-top: 30px;
+}
+.panel{
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+  border-radius: 6px;
+    border: 0;
+}
+@-moz-document url-prefix() {
+    .form-control{
+      height: auto;
+    }
+}
+.panel-primary{
+  background-color: #2c3e50;
+  color: #fff;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    font-size: 20px;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+.btn-warning{
+  background-color: transparent;
+  border-color: #bdc3c7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Form html--------------------------------------------*/
+
+
+
+
+.formhtml{
+	all:unset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
